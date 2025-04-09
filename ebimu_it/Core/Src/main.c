@@ -48,8 +48,8 @@
 uint8_t byteData1=0, byteData3=0;
 uint8_t cnt1=0, cnt3=1;
 uint16_t c=0;
-char Data[100]={0,};
-char command[10]={0,};
+char Data[100]={0};
+char command[10]={0};
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
 	if(huart == &huart1){
